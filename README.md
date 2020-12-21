@@ -20,9 +20,8 @@ In *Logistic Regression* we want an output that forecasts the image being shown 
 
 ![Sigmoid Function](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig3.png)
 
-Como nossa função trabalhará com valores entre 0 e 1, precisamos executar uma normalização dos nossos dados de entrada, pois os valores de píxeis podem variar de 0 até 255. 
+The sigmoid function will work with values between 0 and 1, it is convenient to perform a normalization of our input data, because the values of pixels can vary from 0 to 255. 
 
-É importante salientar que esse projeto se trata de um aprendizado na área de *Machine Learning*, mesmo tendo o conhecimento de Frameworks que realizam esse tipo de processo muito mais rapidamente e com maior facilidade, a intenção desse trabalho é proporcionar um conhecimento mais aprofundado sobre o funcionamento do aprendizado de máquina. Certo disso, observa-se que foi realizado uma função responsável pelo cálculo da sigmoide, seguido das definições dos nossos parâmetros W e b que serão base para nossa regressão logística encontrar os padrões correstos nas diferentes imagens que faça com que ela atinja os resultdos corretos na saída.
+Note: It is important to point out that this project is a learning in the area of *Machine Learning*, even having the knowledge of Frameworks that perform this type of process much more quickly and easily, the intention of this work is to provide a deeper knowledge about the functioning of *Machine Learning*. 
 
-
-
+The continuation of the project shows that a function was made for the calculation of sigmoid, followed by the initializations of our W and b parameters that will be the basis for our logistic regression to find the correct patterns in the different inputs you make to achieve accurate results in the output.
