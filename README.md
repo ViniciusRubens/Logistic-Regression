@@ -10,6 +10,8 @@ So, the main idea is to create a vector with the characteristics of our image, c
 
 In the first part of my code you can see the stage of image processing. Through a database of images, they are standardized to a certain size according to the need of the problem, and converted to grayscale, a factor that would not compromise our analysis, because it is a binary classification, to be remodeled soon after, where each column will correspond to the píxies of each image.
 
+![Título da Image]()
+
 O resultado dessa etapa é a criação dos nossos dados de treinamento, ou seja, o processamento das imagens de gatos e cachorros. Para o primeiro denomina-se um valor 0, enquanto que para os cachorros denomina-se um valor 1. Logo após isso, é necessário que se misture todos os valores de píxel das nossas imagens com suas demarcações para enfim criarmos as nossas matrizes de entrada e de saída, onde o conjunto dos valores de píxeis de uma imagem de gato, por exemplo, será uma entrada associada ao valor 0 na saída, e assim por diante.
 
 Na *Logistic Regression* dado um vetor de característica x como entrada, queremos uma saída que prevê a imagem que está sendo mostrada, ou seja, o nosso objetivo é que ao testarmos uma imagem de gato, após o treino, o computador saiba reconhecer uma imagem de gato e indique como resultado o valor 0 na saída y.
