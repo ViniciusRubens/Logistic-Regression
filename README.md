@@ -14,10 +14,13 @@ Na primeira parte do meu código é possivel visualizar a etapa do processamento
 
 O resultado dessa etapa é a criação dos nossos dados de treinamento, ou seja, o processamento das imagens de gatos e cachorros. Para o primeiro denomina-se um valor 0, enquanto que para os cachorros denomina-se um valor 1. Logo após isso, é necessário que se misture todos os valores de píxel das nossas imagens com suas demarcações para enfim criarmos as nossas matrizes de entrada e de saída, onde o conjunto dos valores de píxeis de uma imagem de gato, por exemplo, será uma entrada associada ao valor 0 na saída, e assim por diante.
 
-
-
 Na *Logistic Regression* dado um vetor de característica x como entrada, queremos uma saída que prevê a imagem que está sendo mostrada, ou seja, o nosso objetivo é que ao testarmos uma imagem de gato, após o treino, o computador saiba reconhecer uma imagem de gato e indique como resultado o valor 0 na saída y.
 
 Como o respectivo trabalho apresentado aqui, é baseado em uma classificação binária, os valores possíveis para a saída serão 1 ou 0, o que nos faz buscar uma função cuja saída varie entre 0 e 1, o que seria perfeito para nosso problema, e nesse caso a Função Sigmoide é a melhor escolha.
 
 Como nossa função trabalhará com valores entre 0 e 1, precisamos executar uma normalização dos nossos dados de entrada, pois os valores de píxeis podem variar de 0 até 255. 
+
+É importante salientar que esse projeto se trata de um aprendizado na área de *Machine Learning*, mesmo tendo o conhecimento de Frameworks que realizam esse tipo de processo muito mais rapidamente e com maior facilidade, a intenção desse trabalho é proporcionar um conhecimento mais aprofundado sobre o funcionamento do aprendizado de máquina. Certo disso, observa-se que foi realizado uma função responsável pelo cálculo da sigmoide, seguido das definições dos nossos parâmetros W e b que serão base para nossa regressão logística encontrar os padrões correstos nas diferentes imagens que faça com que ela atinja os resultdos corretos na saída.
+
+
+
