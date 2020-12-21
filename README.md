@@ -16,7 +16,7 @@ In the first part of my code you can see the stage of image processing. Through 
 
 The result of this step is the creation of our training data. After that, it is necessary to mix all the input and output values to finally create our matrices.
 
-In *Logistic Regression* we want an output that forecasts the image being shown from our input x. Our goal is that when we test a cat image, after training, the computer knows how to recognize a cat image and indicate as a result the value 0 in the output y. This work is based on a binary classification and the possible values for the output are 1 or 0, which makes us look for a function whose output varies between 0 and 1. One solution to our problem is the use of the Sigmoid Function.
+In *Logistic Regression* we want an output that forecasts the image being shown from our input x. Our goal is that when we test a cat image, after training, the computer knows how to recognize a cat image and indicate as a result the value 0 in the output y. This work is based on a binary classification and the possible values for the output are 1 or 0, which makes us look for a function whose output varies between 0 and 1. One solution to our problem is the use of the Sigmoid Function (#0x03B4).
 
 ![Sigmoid Function](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig3.png)
 
