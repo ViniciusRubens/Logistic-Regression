@@ -6,7 +6,7 @@ The __*Logistic Regression*__ is a binary classification algorithm, imagine, for
 
 Let's take as an example a variable Y as output, this variable will receive these values confirming whether or not there is a cat in the image. For this we should keep in mind that the computer will store an image as an matrix of three layers corresponding to the colors red, green and blue, or more popularly known as __RGB__. In addition, each image has a size, depending on how many pixels our camera can capture, and finally, each of the values of our matrix will represent the intensity of a color, composing the image we see.
 
-Sendo assim, a ideia principal é conseguirmos criar um vetor com as características da nossa imagem, chamado de *feature Vector*, e esse vetor será composto dos valores de cada píxel e o utilizaremos como entrada para nossa *Logistic Regression*.  
+So, the main idea is to create a vector with the characteristics of our image, called Vector feature, and this vector will be composed of the values of each pixel and we will use it as input for our Logistic Regression. 
 
 Na primeira parte do meu código é possivel visualizar a etapa do processamento das imagens, que através de um banco de dados, de imagens diferentes uma das outras, e separadas manualmente em pastas específicas, (de acordo com a precisão do usuário em diferenciar imagens de gatos ou não, um fator que pode ser referenciado em análises mais precisas de Visão computacional denominado de *Bayes Human Error*), elas são padronizadas para um tamanho determinado de acordo com a necessidade, e convertidas para escala de cinza, fator que não iria comprometer a nossa análise, pois se trata de uma classificação binária.
 
