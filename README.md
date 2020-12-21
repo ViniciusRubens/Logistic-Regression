@@ -14,11 +14,9 @@ So, the main idea is to create a vector with the characteristics of our image, c
 
 In the first part of my code you can see the stage of image processing. Through a database of images, they are standardized to a certain size according to the need of the problem, and converted to grayscale, a factor that would not compromise our analysis, because it is a binary classification, to be remodeled soon after, where each column will correspond to the pixels of each image.
 
-O resultado dessa etapa é a criação dos nossos dados de treinamento, ou seja, o processamento das imagens de gatos e cachorros. Para o primeiro denomina-se um valor 0, enquanto que para os cachorros denomina-se um valor 1. Logo após isso, é necessário que se misture todos os valores de píxel das nossas imagens com suas demarcações para enfim criarmos as nossas matrizes de entrada e de saída, onde o conjunto dos valores de píxeis de uma imagem de gato, por exemplo, será uma entrada associada ao valor 0 na saída, e assim por diante.
+The result of this step is the creation of our training data. After that, it is necessary to mix all the input and output values to finally create our matrices.
 
-Na *Logistic Regression* dado um vetor de característica x como entrada, queremos uma saída que prevê a imagem que está sendo mostrada, ou seja, o nosso objetivo é que ao testarmos uma imagem de gato, após o treino, o computador saiba reconhecer uma imagem de gato e indique como resultado o valor 0 na saída y.
-
-Como o respectivo trabalho apresentado aqui, é baseado em uma classificação binária, os valores possíveis para a saída serão 1 ou 0, o que nos faz buscar uma função cuja saída varie entre 0 e 1, o que seria perfeito para nosso problema, e nesse caso a Função Sigmoide é a melhor escolha.
+In *Logistic Regression* we want an output that forecasts the image being shown from our input x. Our goal is that when we test a cat image, after training, the computer knows how to recognize a cat image and indicate as a result the value 0 in the output y. This work is based on a binary classification and the possible values for the output are 1 or 0, which makes us look for a function whose output varies between 0 and 1. One solution to our problem is the use of the Sigmoid Function.
 
 Como nossa função trabalhará com valores entre 0 e 1, precisamos executar uma normalização dos nossos dados de entrada, pois os valores de píxeis podem variar de 0 até 255. 
 
