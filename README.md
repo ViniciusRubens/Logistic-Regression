@@ -25,3 +25,6 @@ The sigmoid function will work with values between 0 and 1, it is convenient to 
 Note: It is important to point out that this project is a learning in the area of *Machine Learning*, even having the knowledge of Frameworks that perform this type of process much more quickly and easily, the intention of this work is to provide a deeper knowledge about the functioning of *Machine Learning*. 
 
 The continuation of the project shows that a function was made for the calculation of sigmoid, followed by the initializations of our W and b parameters that will be the basis for our logistic regression to find the correct patterns in the different inputs you make to achieve accurate results in the output.
+
+![W and b parameters](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig4.png)
+
