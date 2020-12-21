@@ -4,7 +4,7 @@
 
 ### Binary Classification
 
-A __*Logistic Regression*__ é um algoritmo de classificação binária, imagina, por exemplo, que temos uma imagem, e nesta imagem está presente a figura de um gato, e nosso ituito como desenvolvedores de *machine learning* é realizar o aprendizado do nosso computador para que ele reconheça se a imagem mostrada é ou não de um gato. Dessa forma, caso afirmativo, o nosso resultado pode ser dado como valor 1, de `True`; assim como o valor 0 de `False`.
+A __*Logistic Regression*__ é um algoritmo de classificação binária, imagina, por exemplo, que temos uma imagem, e nesta imagem está presente a figura de um gato, e nosso ituito como desenvolvedores de *machine learning* é realizar o aprendizado do nosso computador para que ele reconheça se a imagem mostrada é ou não de um gato. Dessa forma, caso afirmativo, o nosso resultado pode ser dado como valor 1, de `True`; assim como o valor 0, de `False`.
 
 Vamos tomar como exemplo uma variável Y como saída, que receberá esses valores confirmando se existe ou não um gato na imagem. Para isso, devemos ter em mente que como toda imagem, o computador a armazenará como uma matriz de três camadas correspondentes às cores vermelho, verde e azul, ou mais popularmente conhecido como __RGB__ (*Red, Green and Blue*). Além disso, cada imagem tem uma tamanho, dependendo da quantidade de píxeis que nossa câmera consegue capturar, e por fim, cada um dos valores de nossa matriz representará a intensidade de determinada cor em sua respectiva camada para aquele píxel, compondo, assim, a imagem que está diante de nossos olhos.
 
