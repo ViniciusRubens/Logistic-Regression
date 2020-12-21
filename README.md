@@ -18,6 +18,8 @@ The result of this step is the creation of our training data. After that, it is 
 
 In *Logistic Regression* we want an output that forecasts the image being shown from our input x. Our goal is that when we test a cat image, after training, the computer knows how to recognize a cat image and indicate as a result the value 0 in the output y. This work is based on a binary classification and the possible values for the output are 1 or 0, which makes us look for a function whose output varies between 0 and 1. One solution to our problem is the use of the Sigmoid Function.
 
+![Sigmoid Function](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig3.png)
+
 Como nossa função trabalhará com valores entre 0 e 1, precisamos executar uma normalização dos nossos dados de entrada, pois os valores de píxeis podem variar de 0 até 255. 
 
 É importante salientar que esse projeto se trata de um aprendizado na área de *Machine Learning*, mesmo tendo o conhecimento de Frameworks que realizam esse tipo de processo muito mais rapidamente e com maior facilidade, a intenção desse trabalho é proporcionar um conhecimento mais aprofundado sobre o funcionamento do aprendizado de máquina. Certo disso, observa-se que foi realizado uma função responsável pelo cálculo da sigmoide, seguido das definições dos nossos parâmetros W e b que serão base para nossa regressão logística encontrar os padrões correstos nas diferentes imagens que faça com que ela atinja os resultdos corretos na saída.
