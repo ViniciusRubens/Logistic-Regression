@@ -1,12 +1,10 @@
 # Logistic Regression
 
-## Uma Rede Neural como regressão logística
+## Binary Classification
 
-### Binary Classification
+The __*Logistic Regression*__ is a binary classification algorithm, imagine, for example, that we have an image, and in this image is present the figure of a cat, and our intention as developers of *machine learning* is to perform the learning of our computer to recognize the figure of the cat. This way, if yes or no, our result can be given as value 1 or 0.
 
-A __*Logistic Regression*__ é um algoritmo de classificação binária, imagina, por exemplo, que temos uma imagem, e nesta imagem está presente a figura de um gato, e nosso ituito como desenvolvedores de *machine learning* é realizar o aprendizado do nosso computador para que ele reconheça se a imagem mostrada é ou não de um gato. Dessa forma, caso afirmativo, o nosso resultado pode ser dado como valor 1, de `True`; assim como o valor 0, de `False`.
-
-Vamos tomar como exemplo uma variável Y como saída, que receberá esses valores confirmando se existe ou não um gato na imagem. Para isso, devemos ter em mente que como toda imagem, o computador a armazenará como uma matriz de três camadas correspondentes às cores vermelho, verde e azul, ou mais popularmente conhecido como __RGB__ (*Red, Green and Blue*). Além disso, cada imagem tem uma tamanho, dependendo da quantidade de píxeis que nossa câmera consegue capturar, e por fim, cada um dos valores de nossa matriz representará a intensidade de determinada cor em sua respectiva camada para aquele píxel, compondo, assim, a imagem que está diante de nossos olhos.
+Let's take as an example a variable Y as output, this variable will receive these values confirming whether or not there is a cat in the image. For this we should keep in mind that the computer will store an image as an matrix of three layers corresponding to the colors red, green and blue, or more popularly known as __RGB__. In addition, each image has a size, depending on how many pixels our camera can capture, and finally, each of the values of our matrix will represent the intensity of a color, composing the image we see.
 
 Sendo assim, a ideia principal é conseguirmos criar um vetor com as características da nossa imagem, chamado de *feature Vector*, e esse vetor será composto dos valores de cada píxel e o utilizaremos como entrada para nossa *Logistic Regression*.  
 
