@@ -8,7 +8,7 @@ Let's take as an example a variable Y as output, this variable will receive thes
 
 So, the main idea is to create a vector with the characteristics of our image, called Vector feature, and this vector will be composed of the values of each pixel and we will use it as input for our Logistic Regression. 
 
-In the first part of my code you can see the stage of image processing. Through a database of images, they are standardized to a certain size according to the need of the problem, and converted to grayscale, a factor that would not compromise our analysis, because it is a binary classification, to be remodeled soon after, where each column will correspond to the píxies of each image.
+In the first part of my code you can see the stage of image processing. Through a database of images, they are standardized to a certain size according to the need of the problem, and converted to grayscale, a factor that would not compromise our analysis, because it is a binary classification, to be remodeled soon after, where each column will correspond to the pixels of each image.
 
 O resultado dessa etapa é a criação dos nossos dados de treinamento, ou seja, o processamento das imagens de gatos e cachorros. Para o primeiro denomina-se um valor 0, enquanto que para os cachorros denomina-se um valor 1. Logo após isso, é necessário que se misture todos os valores de píxel das nossas imagens com suas demarcações para enfim criarmos as nossas matrizes de entrada e de saída, onde o conjunto dos valores de píxeis de uma imagem de gato, por exemplo, será uma entrada associada ao valor 0 na saída, e assim por diante.
 
