@@ -6,7 +6,7 @@ The __*Logistic Regression*__ is a binary classification algorithm, imagine, for
 
 <p align="center">
     <a>
-        <![Binary Classification with cats and dogs](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig1.png)>
+        ![Binary Classification with cats and dogs](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig1.png)
     </a>
 </p>
 
