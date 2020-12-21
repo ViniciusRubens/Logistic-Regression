@@ -8,7 +8,7 @@ The __*Logistic Regression*__ is a binary classification algorithm, imagine, for
 
 Let's take as an example a variable Y as output, this variable will receive these values confirming whether or not there is a cat in the image. For this we should keep in mind that the computer will store an image as an matrix of three layers corresponding to the colors red, green and blue, or more popularly known as __RGB__. In addition, each image has a size, depending on how many pixels our camera can capture, and finally, each of the values of our matrix will represent the intensity of a color, composing the image we see.
 
-So, the main idea is to create a vector with the characteristics of our image, called Vector feature, and this vector will be composed of the values of each pixel and we will use it as input for our Logistic Regression. 
+So, the main idea is to create a vector with the characteristics of our image, called Vector feature, and this vector will be composed of the values of each pixel and we will use it as input for our *Logistic Regression*. 
 
 ![Reshape Feature Vector](https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/Fig2.png)
 
