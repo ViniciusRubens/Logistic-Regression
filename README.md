@@ -34,7 +34,17 @@ The programming language used was Python 3 in Jupyter environment, using the lib
 
 ## Getting started
 
-Para utilização do projeto desenvolvido, é necessário...
+Para utilização do projeto desenvolvido, é necessário que façamos algumas instalações de bibliotecas. Vejamos abaixo como fazer essa etapa:
+
+1. Para instalarmos a biblioteca de Numpy, se utilizarmos o Prompt de Comando do Windows podemos executar o comando:
+
+`pip install numpy`
+
+Caso você queira instalar diretamente pelo Jupyter através do Conda, podemos executar o comando:
+
+`conda install numpy`
+
+2. 
 
 
 ## License
