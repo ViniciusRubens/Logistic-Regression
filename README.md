@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src=https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/LOGISTIC%20REGRESSION%20Logotipo.png alt="LOGISTIC REGRESSION" width="120">
+  <img src=https://github.com/ViniciusRubens/Logistic-Regression/blob/main/Images/LOGISTIC%20REGRESSION%20Logotipo.png alt="LOGISTIC REGRESSION" width="400">
 <br>
 <br>
 LOGISTIC REGRESSION
