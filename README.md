@@ -58,7 +58,7 @@ If you are having problems during installation, a good alternative is to check y
 
 `pip install opencv-python`
 
-⚠️ This project works with a database of images available free of charge on the [Kaggle] platform (https://www.kaggle.com/). In this project the volume of images was reduced due to the hardware limitations of the computer that performed the training.
+⚠️ This project works with a database of images available free of charge on the [Kaggle](https://www.kaggle.com/) platform . In this project the volume of images was reduced due to the hardware limitations of the computer that performed the training.
 
 ## License
 
