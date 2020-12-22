@@ -6,7 +6,8 @@
 LOGISTIC REGRESSION
 </h1>
 
-<p align="center">Meu projeto é baseado no desenvolvimento de um aprendizado de máquina utilizando os conhecimentos de Regressão Logística. 
+<p align="justify">
+Meu projeto é baseado no desenvolvimento de um aprendizado de máquina utilizando os conhecimentos de Regressão Logística. 
 
 A regressão Logística pode ser entendida como um algoritmo de classificação binária, como por exemplo, para o projeto apresentado, é realizado o reconhecimento ou não de figuras de gato nas imagens testadas. Para esse projeto, foi utilizado um algoritmo que permitiu percorrer os diretórios do computador para separarmos as imagens de gato e de cachorro e indicá-las por rótulos, sendo 0 para os gatos e 1 para os cachorros, dessa forma, o nosso resultado deverá ser uma previsão da imagem testada, sendo 0 ou 1. 
 
