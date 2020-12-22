@@ -34,31 +34,31 @@ The programming language used was Python 3 in Jupyter environment, using the lib
 
 ## Getting started
 
-Para utilização do projeto desenvolvido, é necessário que façamos algumas instalações de bibliotecas. Vejamos abaixo como fazer essa etapa:
+To use this project, we need to do some library installations. Let's see below how to do this step:
 
-👉 Para instalarmos a biblioteca de Numpy, se utilizarmos o Prompt de Comando do Windows podemos executar o comando:
+👉 To install the Numpy library, if we use the Windows Command Prompt we can run the command:
 
 `pip install numpy`
 
-Caso você queira instalar diretamente pelo Jupyter através do Conda, podemos executar o comando:
+If you want to install directly by Jupyter through Conda, we can execute the command:
 
 `conda install numpy`
 
-Caso você esteja tendo problemas durante a instalação uma boa alternativa é verificar a sua versão da pip e aversão do Python, ao executar o comando abaixo no Prompt de Comando as duas informações são fornecidas: 
+If you are having problems during installation, a good alternative is to check your version of pip and Python, when we run the command below in the Command Prompt both information are provided: 
 
 `pip --version`
 
-👉 Para instalarmos a biblioteca Matplotlib, o processo é semelhante Pelo Prompt de Comando faremos: 
+👉 To install the Matplotlib library, the process is similar. By Command Prompt we will do: 
 
 `pip install matplotlib`
 
-👉 Por padrão a biblioteca Os é um pacote já instalado junto com a instalação do Python.
+👉 By default the Os library is a package already installed together with the Python installation.
 
-👉 Por fim, a biblioteca OpenCV pode ser instalada através do seguinte comando no Prompt de Comando:
+👉 Finally, the OpenCV library can be installed through the following command in the Command Prompt:
 
 `pip install opencv-python`
 
-⚠️ Esse projeto trabalha com um banco de dados de imagens disponíveis gratuitamente na plataforma [Kaggle](https://www.kaggle.com/), neste projeto o volume de imagens foi reduzido por conta das limitações de hardware do computador que realizou o treinamento.
+⚠️ This project works with a database of images available free of charge on the [Kaggle] platform (https://www.kaggle.com/). In this project the volume of images was reduced due to the hardware limitations of the computer that performed the training.
 
 ## License
 
