@@ -25,12 +25,12 @@ Thanks, and enjoy.
 
 ## Features
 [//]: # (Add the features of your project here:)
-A linguagem de programação utilizada foi Python 3 em ambiente Jupyter, utilizando as bibliotecas destacadas abaixo cuja documentação está nos links bastando clicar sobre elas. No próximo tópico terá uma breve descrição de como você pode fazer a instalação das bibliotecas.
+The programming language used was Python 3 in Jupyter environment, using the libraries highlighted below whose documentation is in the links just by clicking on them. In the next topic you will have a description of how you can install the libraries and test the code.
 
-- 📁 [Numpy](https://numpy.org/) — Biblioteca do Python utilizada para os cálculos das matrizes multidimensionais.
-- 📁 [Matplotlib](https://matplotlib.org/3.3.3/contents.html) — Biblioteca utilizada para a verificação dos testes realizados.
-- 📁 [Os](https://docs.python.org/3/library/os.html) — Biblioteca utilizada para percorrermos diretórios do nosso PC.
-- 📁 [OpenCV](https://opencv.org/) — Biblioteca utilizada para modificarmos e carregarmos nossas imagens.
+- 📁 [Numpy](https://numpy.org/) — Python library used for the calculations of multidimensional matrices.
+- 📁 [Matplotlib](https://matplotlib.org/3.3.3/contents.html) — Library used to check the tests.
+- 📁 [Os](https://docs.python.org/3/library/os.html) — Library used to browse directories from our PC.
+- 📁 [OpenCV](https://opencv.org/) — Library used to modify and load our images.
 
 ## Getting started
 
