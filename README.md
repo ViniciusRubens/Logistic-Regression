@@ -58,6 +58,7 @@ Caso você esteja tendo problemas durante a instalação uma boa alternativa é 
 
 `pip install opencv-python`
 
+⚠️ Esse projeto trabalha com um banco de dados de imagens disponíveis gratuitamente na plataforma [Kaggle](https://www.kaggle.com/), neste projeto o volume de imagens foi reduzido por conta das limitações de hardware do computador que realizou o treinamento.
 
 ## License
 
