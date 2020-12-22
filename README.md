@@ -36,7 +36,7 @@ The programming language used was Python 3 in Jupyter environment, using the lib
 
 Para utilização do projeto desenvolvido, é necessário que façamos algumas instalações de bibliotecas. Vejamos abaixo como fazer essa etapa:
 
-1. Para instalarmos a biblioteca de Numpy, se utilizarmos o Prompt de Comando do Windows podemos executar o comando:
+👉 Para instalarmos a biblioteca de Numpy, se utilizarmos o Prompt de Comando do Windows podemos executar o comando:
 
 `pip install numpy`
 
@@ -48,13 +48,13 @@ Caso você esteja tendo problemas durante a instalação uma boa alternativa é 
 
 `pip --version`
 
-2. Para instalarmos a biblioteca Matplotlib, o processo é semelhante Pelo Prompt de Comando faremos: 
+👉 Para instalarmos a biblioteca Matplotlib, o processo é semelhante Pelo Prompt de Comando faremos: 
 
 `pip install matplotlib`
 
-3. Por padrão a biblioteca Os é um pacote já instalado junto com a instalação do Python.
+👉 Por padrão a biblioteca Os é um pacote já instalado junto com a instalação do Python.
 
-4. Por fim, a biblioteca OpenCV pode ser instalada através do seguinte comando no Prompt de Comando:
+👉 Por fim, a biblioteca OpenCV pode ser instalada através do seguinte comando no Prompt de Comando:
 
 `pip install opencv-python`
 
