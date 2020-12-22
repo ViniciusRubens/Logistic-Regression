@@ -44,7 +44,19 @@ Caso você queira instalar diretamente pelo Jupyter através do Conda, podemos e
 
 `conda install numpy`
 
-2. 
+Caso você esteja tendo problemas durante a instalação uma boa alternativa é verificar a sua versão da pip e aversão do Python, ao executar o comando abaixo no Prompt de Comando as duas informações são fornecidas: 
+
+`pip --version`
+
+2. Para instalarmos a biblioteca Matplotlib, o processo é semelhante Pelo Prompt de Comando faremos: 
+
+`pip install matplotlib`
+
+3. Por padrão a biblioteca Os é um pacote já instalado junto com a instalação do Python.
+
+4. Por fim, a biblioteca OpenCV pode ser instalada através do seguinte comando no Prompt de Comando:
+
+`pip install opencv-python`
 
 
 ## License
