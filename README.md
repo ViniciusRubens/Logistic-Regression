@@ -28,9 +28,9 @@ Thanks, and enjoy.
 A linguagem de programação utilizada foi Python 3 em ambiente Jupyter, utilizando as bibliotecas destacadas abaixo cuja documentação está nos links bastando clicar sobre elas. No próximo tópico terá uma breve descrição de como você pode fazer a instalação das bibliotecas.
 
 - 📁 [Numpy](https://numpy.org/) — Biblioteca do Python utilizada para os cálculos das matrizes multidimensionais.
-- 📁 **Matplotlib** — Biblioteca utilizada para a verificação dos testes realizados.
-- 📁 **Os** — Biblioteca utilizada para percorrermos diretórios do nosso PC.
-- 📁 **OpenCV** — Biblioteca utilizada para modificarmos e carregarmos nossas imagens.
+- 📁 [Matplotlib](https://matplotlib.org/3.3.3/contents.html) — Biblioteca utilizada para a verificação dos testes realizados.
+- 📁 [Os](https://docs.python.org/3/library/os.html) — Biblioteca utilizada para percorrermos diretórios do nosso PC.
+- 📁 [OpenCV](https://opencv.org/) — Biblioteca utilizada para modificarmos e carregarmos nossas imagens.
 
 ## Getting started
 
